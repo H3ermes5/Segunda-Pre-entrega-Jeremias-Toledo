@@ -18,8 +18,7 @@ while (seleccion != "si" && seleccion != "no") {
 if (seleccion == "si") {
     alert("Lista de productos");
     let todolosProductos = productos.map(
-        (producto) => producto.nombre + " " + producto.precio + "$"
-    );
+        (producto) => producto.nombre + " " + producto.precio + "$");
     alert(todolosProductos.join(" - "));
 } 
 else if (seleccion == "no") {
